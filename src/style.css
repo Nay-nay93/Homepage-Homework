@@ -1,0 +1,121 @@
+body {
+    margin: 60px auto;
+    font-family: "Times New Roman", Times, serif;
+    padding-top: 50px;
+    max-width: 800px;
+}
+
+:root {
+    --primary-color: #6c63ff;
+    --secondary-color: #f5f2fe;
+    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+    margin: 0;
+}
+
+h2 {
+    font-size: 48px;
+    line-height: 48px;
+}
+
+h1 {
+    font-size: 96px;
+    margin: 0;
+}
+
+h3 {
+    font-size: 24px;
+    opacity: 0.7;
+    margin: 0px;
+}
+
+div {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    margin: 40px;
+}
+
+.contact-link {
+    background-color: var(--primary-color);
+    box-shadow: var(--box-shadow);
+    color: var(--secondary-color);
+    margin: 20px;
+    border-radius: 4px;
+    padding: 20px 15px;
+    border-color: var(--secondary-color);
+    border-width: 0.5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.about-link {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    margin: 20px;
+    border-radius: 4px;
+    padding: 20px 15px;
+    border-color: var(--primary-color);
+    border-width: 0.5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.homepage-link {
+    display: block;
+    text-align: center;
+    color: var(--primary-color);
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 16px;
+}
+
+.about-paragraphs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin: 30px 0;
+}
+
+p {
+    background-color: var(--secondary-color);
+    padding: 20px;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.email-link {
+    display: flex;
+    font-size: 28px;
+    justify-content: center;
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.container {
+    display: block;
+    box-sizing: border-box;
+}
